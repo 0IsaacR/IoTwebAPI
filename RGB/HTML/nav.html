@@ -1,0 +1,54 @@
+<style type="text/css">
+html, body {
+    height: 100%;
+}
+
+html, h3 {
+    display: table;
+    margin: auto;
+    background-color: beige;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+ .button{
+  background-color: lightblue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+ .button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+  border: 6px solid #777777;
+}
+ .button:active {
+  background-color: #3e8e41; /* Even darker green on click */
+  transform: translateY(0); /* Return to original position on click */
+  box-shadow: none; /* Remove shadow on click */
+}
+</style>
+<h3>Navigation Menu</h3>
+<hr>
+<div class="button">
+    <a href="googlesheets.html">Google Charts</a>
+</div>
+<div class="button">
+    <a href="rgbControl/slider3.php">Slider</a>
+</div>
+<div class="button">
+    <a href="ledControl/on_off.php">LED</a>
+</div>
+<div class="button">
+    <a href="https://github.com/0IsaacR/IoTwebAPI">Git Hub</a>
+</div>
